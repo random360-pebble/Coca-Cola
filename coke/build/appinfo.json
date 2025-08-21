@@ -1,0 +1,33 @@
+{
+    "displayName": "Coke",
+    "uuid": "c0d464df-7f25-4bf7-9a3d-bbafaaaf48a1",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "watchapp": {
+        "watchface": true
+    },
+    "messageKeys": {
+        "dummy": 10000
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "bitmap",
+                "name": "IMAGE_DR_PEPPER_LOGO",
+                "file": "images/coke.png"
+            }
+        ]
+    },
+    "name": "Coke",
+    "shortName": "Coke",
+    "longName": "Coke",
+    "versionLabel": "1.0",
+    "companyName": "Hayes Bolen",
+    "appKeys": {
+        "dummy": 10000
+    },
+    "capabilities": []
+}

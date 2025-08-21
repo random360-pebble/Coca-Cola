@@ -1,0 +1,36 @@
+{
+  "name": "Coke",
+  "author": "Hayes Bolen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "pebble-events": "^1.0.0"
+  },
+  "pebble": {
+    "displayName": "Coke",
+    "uuid": "c0d464df-7f25-4bf7-9a3d-bbafaaaf48a1",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_DR_PEPPER_LOGO",
+          "file": "images/coke.png"
+        }
+      ]
+    }
+  }
+}
+
+
